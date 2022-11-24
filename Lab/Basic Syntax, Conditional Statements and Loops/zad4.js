@@ -1,4 +1,5 @@
 function solve(country) {
+    
     if (country === 'USA' || country === 'England') {
         console.log('English');
     } else if (country === 'Spain' || country === 'Argentina' || country === 'Mexico') {
@@ -6,6 +7,4 @@ function solve(country) {
     } else {
         console.log('unknown');
     }
-
 }
-solve('Bulgaria');
