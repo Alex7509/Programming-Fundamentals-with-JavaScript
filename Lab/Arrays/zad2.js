@@ -13,6 +13,4 @@ function solve(day) {
     } else {
         console.log('Invalid day!');
     }
-
 }
-solve(7);
