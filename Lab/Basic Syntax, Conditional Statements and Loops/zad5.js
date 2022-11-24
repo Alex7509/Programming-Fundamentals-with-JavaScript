@@ -1,4 +1,5 @@
 function solve(num) {
+    
     if (num === 1) {
         console.log('January');
     } else if (num === 2) {
@@ -26,6 +27,4 @@ function solve(num) {
     } else {
         console.log('Error!');
     }
-
 }
-solve(13);
