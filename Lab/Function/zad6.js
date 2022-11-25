@@ -7,6 +7,4 @@ function signChek(numOne, numTwo, numThree){
     }else {
         console.log('Positive');
     }
-
 }
-signChek( 5,12,-15)
