@@ -28,11 +28,9 @@ function solve(arr) {
             for (let y = 0; y < currentArray.length; y++) {
 
                 longestSequence.push(currentArray[y]);
-
             }
         }
     }
 
     console.log(longestSequence.join(' '));
 }
-solve([2, 1, 1, 2, 3, 3, 2, 2, 2, 1])
