@@ -16,12 +16,9 @@ function solve(input) {
 
         inputSum += current
         newArrSum += Number(newArr[i]);
-
     }
 
     console.log(newArr);
     console.log(inputSum);
     console.log(newArrSum);
-
 }
-solve([5, 15, 23, 56, 35])
