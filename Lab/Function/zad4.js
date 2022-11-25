@@ -20,9 +20,7 @@ function orders(order, quantity) {
     result = quantity * price;
 
     console.log(result.toFixed(2));
-
 }
-orders("water", 5);
 
 
 
