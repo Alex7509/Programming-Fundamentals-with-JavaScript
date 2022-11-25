@@ -12,8 +12,7 @@ function simpleCalculator(numOne, numTwo, operator) {
         result = numOne - numTwo;
     }
 
-    console.log(result);
-    
+    console.log(result);   
 }
-simpleCalculator(5, 5, 'multiply');
+
 
