@@ -11,8 +11,6 @@ function solve(arr, result) {
             if (sum === result) {
                 console.log(`${arr[i]} ${arr[j]}`);
             }
-
         }
     }
 }
-solve([14, 20, 60, 13, 7, 19, 8], 27);
