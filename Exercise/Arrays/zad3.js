@@ -9,11 +9,7 @@ function solve(arr1, arr2) {
         } else {
             arr3.push(arr1[i] + arr2[i]);
         }
-
     }
+    
     console.log(arr3.join(' - '));
-
-
 }
-solve(['5', '15', '23', '56', '35'],
-    ['17', '22', '87', '36', '11'])
