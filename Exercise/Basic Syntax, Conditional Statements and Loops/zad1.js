@@ -1,4 +1,5 @@
 function solve(age) {
+    
     if (age < 0) {
         console.log('out of bounds');
         return;
@@ -15,6 +16,4 @@ function solve(age) {
     } else if (age >= 66) {
         console.log('elder');
     }
-
 }
-solve(100);
