@@ -5,6 +5,4 @@ function solve(character) {
     } else {
         console.log('lower-case');
     }
-
 }
-solve('f');
