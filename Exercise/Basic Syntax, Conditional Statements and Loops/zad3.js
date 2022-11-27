@@ -1,5 +1,7 @@
 function solve(number) {
+    
     let divisible = 0;
+    
     if (number % 10 === 0) {
         divisible = 10;
     } else if (number % 7 === 0) {
@@ -14,6 +16,6 @@ function solve(number) {
         console.log("Not divisible");
         return;
     }
+    
     console.log(`The number is divisible by ${divisible}`);
 }
-solve(30);
