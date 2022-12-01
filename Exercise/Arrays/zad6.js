@@ -17,9 +17,7 @@ function solve(arr) {
         if (rightSum === leftSum) {
             output = i;
         }
-
     }
+    
     console.log(output);
-
 }
-solve([1, 2, 3, 3]);

@@ -13,11 +13,7 @@ function solve(input) {
         if (i === input.length - 1) {
             newArr.push(current);
         }
-
     }
 
     console.log(newArr.join(' '));
-
 }
-
-solve([1, 4, 3, 2])

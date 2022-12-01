@@ -1,9 +1,12 @@
 function solve(day, age) {
+    
     let price = 0;
+    
     if (age < 0 || age > 122) {
         console.log('Error!');
         return;
     }
+    
     if (day === 'Weekday') {
         if (age <= 18) {
             price = 12;
@@ -29,7 +32,6 @@ function solve(day, age) {
             price = 10;
         }
     }
+    
     console.log(`${price}$`);
-
 }
-solve('Holiday', 19);

@@ -5,7 +5,5 @@ function solve(year) {
     } else {
         console.log('no');
     }
-
 }
-solve(1984);
-solve(2003); 
+ 

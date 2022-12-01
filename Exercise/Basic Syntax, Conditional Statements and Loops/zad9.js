@@ -17,6 +17,7 @@ function solve(input) {
                 break;
             }
         }
+        
         if (password !== correctPassword) {
             console.log('Incorrect password. Try again.');
         } else {
@@ -24,5 +25,3 @@ function solve(input) {
         }
     }
 }
-solve(['Acer', 'login', 'go', 'let me in', 'recA']);
-solve(['sunny', 'rainy', 'cloudy', 'sunny', 'not sunny']);
