@@ -1,1 +1,0 @@
-passwordValidator('Pa$s$s');

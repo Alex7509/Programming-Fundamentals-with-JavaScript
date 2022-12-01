@@ -1,1 +1,0 @@
-addAndSubtract(23, 6, 10)
