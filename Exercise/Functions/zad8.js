@@ -1,0 +1,1 @@
+perfectNumber(6);
